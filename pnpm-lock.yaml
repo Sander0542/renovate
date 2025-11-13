@@ -315,8 +315,8 @@ importers:
         specifier: 2.5.0
         version: 2.5.0
       sax:
-        specifier: 1.4.1
-        version: 1.4.1
+        specifier: 1.4.3
+        version: 1.4.3
       semver:
         specifier: 7.7.2
         version: 7.7.2
@@ -1619,6 +1619,7 @@ packages:
   '@renovatebot/kbpgp@4.0.4':
     resolution: {integrity: sha512-jHC+jEbW/IMgppTfltGvheNv2WDPlYR/Jm+vcfRsCAO0JEfMAyh/aPYQ6ttRiB5GJlstxZiJpxGcMSS/7uDb1A==}
     engines: {node: ^20.9.0 || ^22.11.0 || >=24.10.0, pnpm: ^10.0.0}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@renovatebot/osv-offline-db@1.7.9':
     resolution: {integrity: sha512-4mHlGm6MvWcCmf7y34Uu6CgfLcAcdABEaplhbAJc1ZluvOsHh3ymQ4AN1MaBxK7iOFmSusnla7ch7/zEfo63aA==}
@@ -5655,8 +5656,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sax@1.4.1:
-    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
+  sax@1.4.3:
+    resolution: {integrity: sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==}
 
   semantic-release@24.2.9:
     resolution: {integrity: sha512-phCkJ6pjDi9ANdhuF5ElS10GGdAKY6R1Pvt9lT3SFhOwM4T7QZE7MLpBDbNruUx/Q3gFD92/UOFringGipRqZA==}
@@ -12891,7 +12892,7 @@ snapshots:
   safer-buffer@2.1.2:
     optional: true
 
-  sax@1.4.1: {}
+  sax@1.4.3: {}
 
   semantic-release@24.2.9(typescript@5.9.3):
     dependencies:
@@ -13886,7 +13887,7 @@ snapshots:
 
   xmldoc@2.0.2:
     dependencies:
-      sax: 1.4.1
+      sax: 1.4.3
 
   xtend@4.0.2: {}
 
